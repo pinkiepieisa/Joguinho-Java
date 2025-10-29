@@ -53,7 +53,10 @@ public class MonstroCombate {
 
             Monstro monstroEscolhido = listaMonstros.get(escolha);
             jogador.Atacar(monstroEscolhido);
-;
+
+            if (monstroEscolhido.getVida() <= 0 ) {
+                
+            } 
         }
 
     }

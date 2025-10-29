@@ -26,5 +26,24 @@ public abstract class Monstro {
         System.out.printf("%s recebeu %d de dano. Vida restante: %d.", this.nome, dano, this.vida);
 
     };
+
+        public String getNome(){
+
+        return this.nome;
+
+    }
+
+    public int getVida() {
+
+        return this.vida;
+
+    }
+
+    public int getForca() {
+
+        return this.forcaAtaque;
+        
+    }
+    
  
 }

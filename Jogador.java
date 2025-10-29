@@ -15,5 +15,19 @@ public abstract class Jogador {
         monstro.ReceberDano(forcaAtaque);
 
     }
+
+    
+    public int getVidaJ() {
+
+        return this.vida;
+
+    }
+
+    public int getAtaqueJ() {
+
+        return this.forcaAtaque;
+
+    }
+    
     
 }

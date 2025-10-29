@@ -5,5 +5,5 @@ public class JogadorHumano extends Jogador {
         super(vida, forcaAtaque);
         
     }
-    
+
 }
