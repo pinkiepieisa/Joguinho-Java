@@ -16,14 +16,14 @@ public abstract class Monstro {
 
     public void Atacar(Jogador jogador) {
         jogador.vida -= this.forcaAtaque;
-        System.out.printf("%s atacou o jogador e causou %d de dano.", this.nome, this.forcaAtaque);
+        System.out.printf(" %s atacou o jogador e causou %d de dano.", this.nome, this.forcaAtaque);
     }
  
 
     public void ReceberDano(int dano) {
 
         this.vida -= dano;
-        System.out.printf("%s recebeu %d de dano. Vida restante: %d.", this.nome, dano, this.vida);
+        System.out.printf(" %s recebeu %d de dano. Vida restante: %d.", this.nome, dano, this.vida);
 
     };
 
