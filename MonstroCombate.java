@@ -55,8 +55,20 @@ public class MonstroCombate {
             jogador.Atacar(monstroEscolhido);
 
             if (monstroEscolhido.getVida() <= 0 ) {
-                
-            } 
+                System.out.printf("%s foi derrotado! Bom trabalho.", monstroEscolhido.getNome());
+                listaMonstros.remove(escolha);
+
+            } else {
+
+                monstroEscolhido.Atacar(jogador);
+                if(jogador.getVidaJ() <= 0) {
+
+                    System.out.println("Você foi DERROTADO!!! THE GAME IS OVER, BRO!!!!!");
+                    jogoAtivo = false;
+
+                }
+
+            }
         }
 
     }
