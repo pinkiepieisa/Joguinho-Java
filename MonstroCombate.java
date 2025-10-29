@@ -71,6 +71,8 @@ public class MonstroCombate {
 
             }
 
+            //Chefão final
+
             if (listaMonstros.size() == 0) {
 
                 System.out.println("Parabéns, você derrotou todos os monstros, você arrasa!");
@@ -103,7 +105,7 @@ public class MonstroCombate {
                 } else if (chefao.getVida() <= 0) {
 
                     System.out.println("Parabéns, agora você enfim pode descansar, todos os monstros foram derrotados.");
-                    
+
                 }
 
                 break;
